@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week1 task-Registration Form</title>
     
     <style>
@@ -47,11 +47,11 @@ input{
         <fieldset>
             <legend>Personal Information</legend>
             <label class="labels" for="name">Full Name</label><br>
-            <input type="text" name="name" id="name" required> <br>
+            <input type="text" name="name" id="name" placeholder="Your name" required> <br>
             <label class="labels" for="phone">Number</label><br>
-            <input type="number" name="phone" id="phone" required> <br>
+            <input type="number" name="phone" id="phone" placeholder="Your phone number" required> <br>
             <label class="labels" for="email">Email</label><br>
-            <input type="email" name="email" id="email" required> <br>
+            <input type="email" name="email" id="email" placeholder="Your email" required> <br>
             <label for="gender">Gender:</label> <br>
             <select name="gender" id="gender">
                 <option value="male">Male</option>
@@ -60,7 +60,7 @@ input{
             </select> <br>
             
             <label class="labels" for="password">Password</label> <br>
-            <input type="password" name="password" id="password" required> <br>
+            <input type="password" name="password" id="password" placeholder="Your password" required> <br>
             <button type="submit" onclick="alert('Form submitted Successfully') ">Submit</button>
         </fieldset>
     </form>
